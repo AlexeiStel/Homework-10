@@ -1,0 +1,25 @@
+.login-page,
+.login-page div {
+    margin: 20px;
+}
+
+label {
+    margin-right: 20px;
+}
+input {
+    border-radius: 8px;
+    height: 40px;
+}
+.login {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #EA7200;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.login:hover {
+    cursor: pointer;
+    background-color: #006F8E;
+} 

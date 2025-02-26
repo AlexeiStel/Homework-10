@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+h2, p {
+  margin: 0;
+  padding:0;
+}
+
+.card {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 600px;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+img,
+.card h2,
+.card p {
+  padding: 5px 10px;
+}
+
+.card-loading {
+  font-size: 24px;
+  color: green;
+}
+
+.card-error {
+  color: red;
+}
+

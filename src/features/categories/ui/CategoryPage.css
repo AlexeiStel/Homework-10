@@ -1,0 +1,31 @@
+.category-container {
+    padding: 10px 20px;
+    background-color: #fff;
+  }
+  
+  .category-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-container li {
+    margin: 10px 0;
+  }
+  
+  .category-container button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #EA7200;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .category-container button:hover {
+    border-radius: 8px;
+    background-color: #006F8E;
+  }
+
+  .category-container h2 {
+    color: red;
+  }
