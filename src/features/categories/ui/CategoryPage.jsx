@@ -41,7 +41,7 @@ const CategoryPage = () => {
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  }, [page]);
+  }, [page, type]);
 
 
   const loadMore = useCallback(() => {
