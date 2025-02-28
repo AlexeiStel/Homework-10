@@ -4,6 +4,7 @@ const dinamicCacheName = "dinamic-site-v1";
 const ASSETS = [
     '/',
     'index.html',
+    'offline.html',
     '/src/features/common/script.js'
 ]
 
